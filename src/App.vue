@@ -13,19 +13,19 @@
 // import Header from './components/Header'
 import Menu from './components/Menu.vue'
 import About from './components/About.vue'
-// import Experience from './components/Experience.vue'
-// import Contacts from './components/Contacts.vue'
-// import Footer from './components/Footer.vue'
+import Experience from './components/Experience.vue'
+import Contacts from './components/Contacts.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    // Header,
+    Header,
     Menu,
     About,
-    // Experience,
-    // Contacts,
-    // Footer
+    Experience,
+    Contacts,
+    Footer
   }
 }
 </script>
